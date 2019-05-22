@@ -14,11 +14,7 @@ public class Contagem extends AppCompatActivity {
         setContentView(R.layout.activity_contagem);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setTitle("Contagem");
-    }
-    public void irparaIdentificacao(View view){
-        Intent intent = new Intent(getApplicationContext(),Identificacao.class);
-        startActivity(intent);
+        getSupportActionBar().setTitle("Calculadora");
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
